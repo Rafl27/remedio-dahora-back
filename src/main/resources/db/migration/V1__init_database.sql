@@ -1,4 +1,4 @@
-CREATE TABLE Meds (
+CREATE TABLE if not exists Meds (
   med_id BIGINT NOT NULL AUTO_INCREMENT,
   med_name VARCHAR(255) NOT NULL,
   med_desc VARCHAR(255) NOT NULL,
