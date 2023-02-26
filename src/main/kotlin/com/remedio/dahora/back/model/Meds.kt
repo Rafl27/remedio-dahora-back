@@ -14,3 +14,5 @@ data class Meds (
     var medType: String,
     var medStatus: String,
 )
+
+//TODO: verificar com a galera oq cada remedio vai ter e etc

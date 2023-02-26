@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/meds")
 class MedsController (private val service: MedsService){
+    @RequestMapping()
     fun findAllMeds(): MutableList<Meds> {
         return service.getMeds()
     }
